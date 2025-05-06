@@ -1,90 +1,97 @@
-Heart Attack Analysis & Prediction
-This project is part of the DataTalks.Club ML Zoomcamp midterm. It is a classification model that predicts whether a person is at risk of a heart attack based on clinical parameters. The model is deployed using Streamlit.
+# ❤️ Heart Attack Analysis & Prediction
 
-<p align="center"> <img src="https://cdn.dribbble.com/users/2154580/screenshots/6452241/atemlos_loop_heart_v1.0_chriseff_dribbble.gif" width="500" height="400" /> </p>
-🔗 Links
-Dataset: Kaggle Dataset
+A machine learning classification project to predict whether a person is at risk of a heart attack based on clinical data.
 
-Notebook: Kaggle Code
+> 🚀 Built for the **DataTalks.Club ML Zoomcamp** Midterm Project  
+> 🧠 Deployed using **Streamlit Cloud**
 
-Live App: Streamlit App
+<p align="center">
+  <img src="https://cdn.dribbble.com/users/2154580/screenshots/6452241/atemlos_loop_heart_v1.0_chriseff_dribbble.gif" width="400"/>
+</p>
 
-📌 Overview
-Heart disease is a major cause of death worldwide. Predicting the chances of a heart attack early can help save lives. This project uses machine learning to make that prediction using patient data.
+---
 
-🧪 Steps in the Project
-Data Preprocessing
+## 📊 Project Overview
 
-Exploratory Data Analysis (EDA)
+Heart disease is one of the leading causes of death globally. Early prediction can save lives.  
+This project uses clinical parameters and machine learning to detect heart attack risk.
 
-Feature Engineering
+- ✅ Classification Problem
+- 🧪 Trained on real-world medical data
+- 📈 Best model: **XGBoost Classifier**
+- 🌐 Deployed live on **Streamlit**
 
-Scaling and Normalization
+---
 
-Model Training and Evaluation
+## 🔗 Useful Links
 
-Model Testing
+- 📂 **Dataset**: [Kaggle Dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)  
+- 📓 **Notebook**: [Kaggle Code](https://www.kaggle.com/code/kavya2099/heart-attack-analysis-prediction/notebook)  
+- 🌍 **Live App**: [Try it on Streamlit](https://heart-attack-analysis-prediction.streamlit.app/)
 
-Deployment with Streamlit
+---
 
-🧾 Input Features
-age: Age of the person
+## 🧾 Input Features
 
-sex: 1 = Male, 0 = Female
+| Feature     | Description                                         |
+|-------------|-----------------------------------------------------|
+| `age`       | Age of the person                                   |
+| `sex`       | 1 = Male, 0 = Female                                |
+| `cp`        | Chest pain type (0–3)                               |
+| `trestbps`  | Resting blood pressure                              |
+| `chol`      | Cholesterol level (mg/dl)                           |
+| `fbs`       | Fasting blood sugar > 120 mg/dl (1 = Yes, 0 = No)   |
+| `restecg`   | ECG results (0–2)                                   |
+| `thalach`   | Max heart rate achieved                             |
+| `exang`     | Exercise-induced angina (1 = Yes, 0 = No)           |
+| `oldpeak`   | ST depression induced by exercise                   |
+| `slope`     | Slope of ST segment (0–2)                           |
+| `ca`        | No. of major vessels (0–3)                          |
+| `thal`      | Thalassemia type (1–3)                              |
+| `target`    | 1 = Risk, 0 = No Risk                               |
 
-cp: Chest pain type (0–3)
+---
 
-trestbps: Resting blood pressure
+## ⚙️ ML Pipeline
 
-chol: Cholesterol level
+- 🔍 Data Preprocessing  
+- 📊 Exploratory Data Analysis (EDA)  
+- 🔧 Feature Engineering  
+- ⚖️ Scaling & Normalization  
+- 🤖 Model Training: Decision Tree, Random Forest, XGBoost  
+- 🏆 Model Evaluation using Accuracy & AUC  
+- 🌐 Deployment using Streamlit
 
-fbs: Fasting blood sugar (>120 mg/dl)
+<p align="center">
+  <img src="predict heart attack.gif" width="500"/>
+</p>
 
-restecg: ECG results (0–2)
+---
 
-thalach: Max heart rate achieved
+## ✅ What’s Done
 
-exang: Exercise-induced angina (1 = Yes, 0 = No)
+- ✔️ Exploratory Data Analysis  
+- ✔️ Feature Selection using Mutual Information  
+- ✔️ Tried 3 models: Decision Tree, Random Forest, XGBoost  
+- ✔️ Chose best model (XGBoost)  
+- ✔️ Deployment with Streamlit Cloud  
+- ✔️ Visualizations with Matplotlib & Seaborn
 
-oldpeak: ST depression
+---
 
-slope: Slope of the ST segment (0–2)
+## 💡 Future Work
 
-ca: Number of major vessels (0–3)
+- 🔁 Cross-validation for better generalization  
+- 🔗 Add ML Pipelines  
+- 📊 Try more feature selection techniques  
+- 🚫 Handle outliers using Z-scores  
+- 🤖 Experiment with more ML algorithms  
+- 📈 Add more visualizations and insights
 
-thal: Thalassemia type (1–3)
+---
 
-target: 1 = Risk, 0 = No risk
+## 🙌 Acknowledgements
 
-✅ Model Details
-Models used:
+Thanks to **DataTalks.Club** and the **ML Zoomcamp community** for support and resources!
 
-Decision Tree
-
-Random Forest
-
-XGBoost (Best accuracy and AUC)
-
-Visualization tools:
-
-Matplotlib
-
-Seaborn (Heatmaps)
-
-Deployed using:
-
-Streamlit Cloud
-
-<p align="center"> <img src="predict heart attack.gif" /> </p>
-🔄 Future Improvements
-Add cross-validation
-
-Use pipelines for better training flow
-
-Try other feature selection methods
-
-Handle outliers with Z-scores
-
-Explore more classification models
-
-Add more detailed EDA
+---
