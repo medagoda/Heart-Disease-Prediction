@@ -26,7 +26,6 @@ This project uses clinical parameters and machine learning to detect heart attac
 
 - 📂 **Dataset**: [Kaggle Dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)  
 - 📓 **Notebook**: [Kaggle Code](https://www.kaggle.com/code/kavya2099/heart-attack-analysis-prediction/notebook)  
-- 🌍 **Live App**: [Try it on Streamlit](https://heart-attack-analysis-prediction.streamlit.app/)
 
 ---
 
