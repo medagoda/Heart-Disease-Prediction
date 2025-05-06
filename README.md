@@ -1,121 +1,90 @@
+Heart Attack Analysis & Prediction
+This project is part of the DataTalks.Club ML Zoomcamp midterm. It is a classification model that predicts whether a person is at risk of a heart attack based on clinical parameters. The model is deployed using Streamlit.
 
-# Heart Attack Analysis Prediction
+<p align="center"> <img src="https://cdn.dribbble.com/users/2154580/screenshots/6452241/atemlos_loop_heart_v1.0_chriseff_dribbble.gif" width="500" height="400" /> </p>
+🔗 Links
+Dataset: Kaggle Dataset
 
-#### Heart Attack Analysis &amp; Prediction model created for DataTalks.Club mlzoomcamp course midterm project
-<p align="center">
-<img src="https://cdn.dribbble.com/users/2154580/screenshots/6452241/atemlos_loop_heart_v1.0_chriseff_dribbble.gif" width="500" height="400" />
-</p>
+Notebook: Kaggle Code
 
+Live App: Streamlit App
 
-It is classification model created to predict whether the patient has chance of getting heart attack or not based on the clinical parameters. Deployed in streamlit cloud.
-Created using Kaggle noteboook
+📌 Overview
+Heart disease is a major cause of death worldwide. Predicting the chances of a heart attack early can help save lives. This project uses machine learning to make that prediction using patient data.
 
-Dataset: https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset
+🧪 Steps in the Project
+Data Preprocessing
 
-Kaggle link: https://www.kaggle.com/code/kavya2099/heart-attack-analysis-prediction/notebook
+Exploratory Data Analysis (EDA)
 
-Link to access streamlit: https://heart-attack-analysis-prediction.streamlit.app/
+Feature Engineering
 
-<p align="center">
-<img src="predict heart attack.gif"  />
-</p>
+Scaling and Normalization
 
-## Introduction
+Model Training and Evaluation
 
-Heart disease is a major health concern worldwide, accounting for a significant number of deaths each year. Early detection and prevention are crucial in managing this condition. Machine learning models offer a promising approach to predicting the likelihood of heart attacks based on clinical parameters. In this study, we have developed a classification model to predict whether a patient is at risk of experiencing a heart attack based on their clinical parameters.
+Model Testing
 
-## Problem Statement
+Deployment with Streamlit
 
-The aim of this study is to develop a reliable classification model that can predict the likelihood of a patient experiencing a heart attack based on their clinical parameters. By accurately identifying individuals at risk, healthcare providers can intervene early with targeted interventions and lifestyle modifications to reduce the risk of heart disease and improve patient outcomes.
+🧾 Input Features
+age: Age of the person
 
-**Code flow**
+sex: 1 = Male, 0 = Female
 
-        * Data processing
-        * EDA
-        * Feature Engineering
-        * Scaling and Normalization
-        * Model Selection and Evaluation
-        * Test the model
-        * Deploying the model
+cp: Chest pain type (0–3)
 
-**Data**
+trestbps: Resting blood pressure
 
-Input the below information to check whether the patient has risk of heart attack or not
+chol: Cholesterol level
 
-Age : Age of the patient
+fbs: Fasting blood sugar (>120 mg/dl)
 
-Sex: The person’s sex (1 = male, 0 = female)
+restecg: ECG results (0–2)
 
+thalach: Max heart rate achieved
 
-cp: chest pain type
+exang: Exercise-induced angina (1 = Yes, 0 = No)
 
-— Value 0: asymptomatic
+oldpeak: ST depression
 
-— Value 1: atypical angina
+slope: Slope of the ST segment (0–2)
 
-— Value 2: non-anginal pain
+ca: Number of major vessels (0–3)
 
-— Value 3: typical angina
+thal: Thalassemia type (1–3)
 
+target: 1 = Risk, 0 = No risk
 
-trestbps: The person’s resting blood pressure (mm Hg on admission to the hospital)
+✅ Model Details
+Models used:
 
-chol: The person’s cholesterol measurement in mg/dl
+Decision Tree
 
-fbs: The person’s fasting blood sugar (> 120 mg/dl, 1 = true; 0 = false)
+Random Forest
 
-restecg: resting electrocardiographic results
+XGBoost (Best accuracy and AUC)
 
-— Value 0: showing probable or definite left ventricular hypertrophy by Estes’ criteria
+Visualization tools:
 
-— Value 1: normal
+Matplotlib
 
-— Value 2: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
+Seaborn (Heatmaps)
 
-thalach: The person’s maximum heart rate achieved
+Deployed using:
 
-exang: Exercise induced angina (1 = yes; 0 = no)
+Streamlit Cloud
 
-oldpeak: ST depression induced by exercise relative to rest (‘ST’ relates to positions on the ECG plot. See more here)
+<p align="center"> <img src="predict heart attack.gif" /> </p>
+🔄 Future Improvements
+Add cross-validation
 
-slope: the slope of the peak exercise ST segment — 0: downsloping; 1: flat; 2: upsloping
+Use pipelines for better training flow
 
-ca: The number of major vessels (0–3)
+Try other feature selection methods
 
-thal: A blood disorder called thalassemia 
+Handle outliers with Z-scores
 
-Value 0: NULL (dropped from the dataset previously
+Explore more classification models
 
-Value 1: fixed defect (no blood flow in some part of the heart)
-
-Value 2: normal blood flow
-
-Value 3: reversible defect (a blood flow is observed but it is not normal)
-
-target: Heart disease (1 = no, 0= yes)
-
-
-## Things implemented
-
-- Exploratory Data Analysis
-- Finding **Mutual information** with the target feature
-- Applying **Decision tree classification, Random forest classifiaction and XGB classification** algorithms with different feature parameters and picking up the best model based on AUC score and accuracy
-- Used **Matplotlib and Seaborn Heatmap** for visualization
-  
-## Deploying model
-
-* Implemented the model in **Streamlit**.
-* XGB Model will predict whether a patient is at risk of experiencing a heart attack based on their clinical parameters.
-
-## Things to try it out next!
-* Applying crossvalidation concepts in model training
-* Applying Pipeline concepts in model training
-* Trying out other Feature selection methods
-* Using Z scores to treat outliers
-* Applying other classification algorithms
-* Implementing more EDA concepts
-
-## References:
-
-https://towardsdatascience.com/heart-disease-uci-diagnosis-prediction-b1943ee835a7
-
+Add more detailed EDA
