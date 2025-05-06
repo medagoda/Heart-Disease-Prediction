@@ -1,8 +1,7 @@
 # ❤️ Heart Attack Analysis & Prediction
 
 A machine learning classification project to predict whether a person is at risk of a heart attack based on clinical data.
-
-> 🚀 Built for the **DataTalks.Club ML Zoomcamp** Midterm Project  
+ 
 > 🧠 Deployed using **Streamlit Cloud**
 
 <p align="center">
