@@ -67,15 +67,4 @@ This project uses clinical parameters and machine learning to detect heart attac
 
 ---
 
-## 💡 Future Work
-
-- 🔁 Cross-validation for better generalization  
-- 🔗 Add ML Pipelines  
-- 📊 Try more feature selection techniques  
-- 🚫 Handle outliers using Z-scores  
-- 🤖 Experiment with more ML algorithms  
-- 📈 Add more visualizations and insights
-
----
-
 
