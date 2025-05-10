@@ -49,7 +49,7 @@ This project uses clinical parameters and machine learning to detect heart attac
 - ⚖️ Scaling & Normalization  
 - 🤖 Model Training: Decision Tree, Random Forest, XGBoost  
 - 🏆 Model Evaluation using Accuracy & AUC  
-- 🌐 Deployment using Streamlit
+
 
 <p align="center">
   <img src="predict heart attack.gif" width="500"/>
@@ -62,8 +62,7 @@ This project uses clinical parameters and machine learning to detect heart attac
 - ✔️ Exploratory Data Analysis  
 - ✔️ Feature Selection using Mutual Information  
 - ✔️ Tried 3 models: Decision Tree, Random Forest, XGBoost  
-- ✔️ Chose best model (XGBoost)  
-- ✔️ Deployment with Streamlit Cloud  
+- ✔️ Chose best model (XGBoost)   
 - ✔️ Visualizations with Matplotlib & Seaborn
 
 ---
@@ -79,8 +78,4 @@ This project uses clinical parameters and machine learning to detect heart attac
 
 ---
 
-## 🙌 Acknowledgements
 
-Thanks to **DataTalks.Club** and the **ML Zoomcamp community** for support and resources!
-
----
