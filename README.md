@@ -11,14 +11,13 @@ This project uses clinical parameters and machine learning to detect heart attac
 - ✅ Classification Problem
 - 🧪 Trained on real-world medical data
 - 📈 Best model: **XGBoost Classifier**
-- 🌐 Deployed live on **Streamlit**
 
 ---
 
 ## 🔗 Useful Links
 
 - 📂 **Dataset**: [Kaggle Dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)
-- 
+  
 ---
 
 ## 🧾 Input Features
