@@ -2,13 +2,6 @@
 
 A machine learning classification project to predict whether a person is at risk of a heart attack based on clinical data.
  
-> 🧠 Deployed using **Streamlit Cloud**
-
-<p align="center">
-  <img src="https://cdn.dribbble.com/users/2154580/screenshots/6452241/atemlos_loop_heart_v1.0_chriseff_dribbble.gif" width="400"/>
-</p>
-
----
 
 ## 📊 Project Overview
 
@@ -24,9 +17,8 @@ This project uses clinical parameters and machine learning to detect heart attac
 
 ## 🔗 Useful Links
 
-- 📂 **Dataset**: [Kaggle Dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)  
-- 📓 **Notebook**: [Kaggle Code](https://www.kaggle.com/code/kavya2099/heart-attack-analysis-prediction/notebook)  
-
+- 📂 **Dataset**: [Kaggle Dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)
+- 
 ---
 
 ## 🧾 Input Features
